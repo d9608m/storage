@@ -17,7 +17,7 @@ This script automates the installation of [Tunnelblick](https://tunnelblick.net/
    
 3. Script Execution:
    - The script must run as root (which is standard for MDM scripts).
-   - No user interaction is requiredß.
+   - No user interaction is required.
   
 ## Customization
 - CONFIG_NAME: Set this to a name for your VPN configuration (no spaces recommended).
