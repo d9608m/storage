@@ -1,4 +1,4 @@
-# Tunnelblick Installation & Configuration Script for MDM Deployment
+# Script To Install Tunnelblick With Config For MDM Deployment
 This script automates the installation of [Tunnelblick](https://tunnelblick.net/), a leading OpenVPN client for macOS, and optionally installs a provided OpenVPN configuration file. It is designed for deployment via Mobile Device Management (MDM) solutions, with the script provided focused on Addigy, but can be adapted for other MDM platforms with minor modifications.
 
 ## Features
