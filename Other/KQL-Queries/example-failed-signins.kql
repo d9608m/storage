@@ -1,8 +1,0 @@
-// Description: Top 20 accounts with the most failed sign-ins in the last 24 hours
-// Data source: Microsoft Entra ID sign-in logs (SigninLogs table)
-// Parameters: adjust the lookback period in ago()
-SigninLogs
-| where TimeGenerated > ago(24h)
-| where ResultType != "0"
-| summarize FailedAttempts = count(), DistinctIPs = dcount(IPAddress) by UserPrincipalName
-| top 20 by FailedAttempts desc
